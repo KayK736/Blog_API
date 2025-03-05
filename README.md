@@ -33,7 +33,7 @@ npm install
 
 Create a .env file in the root directory and add the following:
 
-MONGODB_URL=mongodb+srv://divyanjalirajapaksha736:Kavya625@cluster1.xqwyy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1
+MONGODB_URL=mongodb+srv://<db name>:<password>@cluster1.xqwyy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1
 JWT_SECRET=your_jwt_secret
 
 4️⃣ Start the Server
@@ -60,13 +60,7 @@ DELETE /api/posts/:id - Delete a blog post
 **Note: All blog routes require a JWT token in the Authorization header.
 
 
- Testing the API
-
-You can test the API using Postman.
-
-Import Postman Collection
-
-A Postman collection file (postman_collection.json) is included in this repository. Import it into Postman and update the environment variables as needed.
+ 
 
 
 
